@@ -1,0 +1,88 @@
+
+.shadow-text {
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px #141B1E;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.intro {
+    min-height: 100vh;
+    background-color: #443D2A;
+    background-image: url("./grizzly_forest_bg.jpg");
+    background-size: cover;
+    /* background-position: left bottom; */
+}
+
+.logo, 
+.logo a {
+    color: whitesmoke;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo {
+    margin-right: 5em;
+}
+
+.logo-title,
+.logo-subtitle {
+    margin: 0;
+}
+
+.logo-title {
+    font-weight: 700;
+    font-size: 1.125rem;
+    letter-spacing: .08em;
+}
+
+.logo-subtitle {
+    font-size: .8em;
+    letter-spacing: 1em;
+}
+
+.contact-name {
+    border: none;
+}
+
+
+.past-speakers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.conference-year-container {
+    width: 25vw;
+    min-width: 220px;
+    padding-left: 1em;
+}
+
+.conference-year {
+    color: #0a0909cb;
+    margin: 0;
+    padding: .5em 0;
+
+    border-bottom: .5em solid #0a0909;
+    margin-bottom: 1.5em
+}
+
+.conference-year-container p {
+    line-height: 1.25em;
+    margin: 0 0 .5em 0;
+    font-weight: 300;
+}
+
+.offcanvas.offcanvas-top {
+    min-height: 100vh;
+}
+
+.offcanvas.offcanvas-start {
+    width: 50vw;
+    min-width: 500px;
+}
