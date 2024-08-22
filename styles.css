@@ -1,19 +1,71 @@
-
 .shadow-text {
     color: whitesmoke;
-    text-shadow: 2px 2px 5px #141B1E;
+    text-shadow: 3px 3px 5px #141B1E;
 }
 
-section {
-    min-height: 100vh;
+.button {
+    display: inline-block;
+    margin-right: 1em;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: 500;
+    background-color: #0a0909cb;
+    border: 1px solid #0a0909;
+    letter-spacing: 1.125px;
+    text-decoration: none;
+    text-shadow: 0;
+    padding: 1em 2.25em;
+    transform: scale(1);
+    transition: 500ms;
+}
+
+.bmc-register-btn {
+    color: #0a0909;
+    background-color: #f5f5f5cb;
+    text-shadow: none;
+}
+
+.button:hover,
+.button:focus {
+    transform: scale(1.075);
+    font-weight: 700;
+}
+
+.button:last-of-type {
+    margin-right: 0;
+}
+
+section,
+.intro {
+    width: 100vw;
+   min-height: calc(100vh + 65px)
 }
 
 .intro {
-    min-height: 100vh;
     background-color: #443D2A;
     background-image: url("./grizzly_forest_bg.jpg");
     background-size: cover;
+    background-position: -12em 0;
     /* background-position: left bottom; */
+}
+
+.btn-container {
+    background-color: #212529;
+}
+
+.btn-container a {
+    color: whitesmoke;
+    text-underline-offset: 5px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1.250px;
+    transform: scale(1);
+    transition: 500ms;
+}
+
+.btn-container a:hover,
+.btn-container a:focus {
+    transform: scale(1.075);
 }
 
 .logo, 
@@ -67,7 +119,6 @@ section {
     color: #0a0909cb;
     margin: 0;
     padding: .5em 0;
-
     border-bottom: .5em solid #0a0909;
     margin-bottom: 1.5em
 }

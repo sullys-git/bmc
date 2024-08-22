@@ -1,4 +1,4 @@
-const pastConferences = [
+export const pastConferences = [
     {
         year: "2023",
         speakers: [
@@ -312,7 +312,7 @@ const pastConferences = [
 ]
 
 
-const conferenceContacts = 
+export const conferenceContacts = 
 [   
     {
         name: "rick t.",
@@ -336,4 +336,4 @@ const conferenceContacts =
     },
 ]
 
-export { pastConferences, conferenceContacts }
+// export { pastConferences, conferenceContacts }
